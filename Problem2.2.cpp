@@ -7,7 +7,7 @@ int main(){
     int big = 40000; // 40000 outside of standard int range (-32,768 to 32,767)
     double fläche = 1.23E+5; //makes sense as fläche is a double and can represent very large numbers
     long count = 0; //makes sense as count is a long integer
-    char c = '\''; //
+    char c = '\''; //valid: sonderzeichen/special symbols have to be marked with backslash
     unsigned char ch='\201'; //makes sense as ch is an unsigned char and '\201' is an octal value that can be represented as an unsigned char
     unsigned int size = 40000; //makes sense as size is an unsigned int and can represent values up to 65,535
     float value = 12345.06789; //makes sense as value is a float and can represent decimal numbers with up to 7 significant digits
